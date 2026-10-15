@@ -1,0 +1,32 @@
+---
+import catalogue from '../data/catalogue.json';
+
+const COLORS: Record<string, string> = {
+	cyan: '#22d3ee',
+	teal: '#2dd4bf',
+	rose: '#fb7185',
+	orange: '#fb923c',
+	lime: '#a3e635',
+	amber: '#fbbf24',
+	emerald: '#34d399',
+	violet: '#a78bfa',
+};
+---
+
+<div class="course-grid">
+	{
+		catalogue.courses.map((course) => {
+			const total = course.tracks.reduce((n, t) => n + t.modules.length, 0);
+			const accent = COLORS[course.color] ?? '#34d399';
+			return (
+				<a class="course-card" style={`--course-accent: ${accent}`} href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/${course.slug}/overview/`}>
+					<strong style={`color: ${accent}`}>{course.title}</strong>
+					<p>{course.subtitle}</p>
+					<p class="count">
+						{total} modules &middot; {course.tracks.length} track{course.tracks.length > 1 ? 's' : ''}
+					</p>
+				</a>
+			);
+		})
+	}
+</div>

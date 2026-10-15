@@ -1,0 +1,1246 @@
+{
+  "courses": [
+    {
+      "key": "hero",
+      "slug": "zero-to-hero",
+      "title": "From Zero to Hero",
+      "subtitle": "Dynatrace Platform Mastery \u2014 No Prior Knowledge Required",
+      "color": "cyan",
+      "tracks": [
+        {
+          "id": "hero-foundation",
+          "slug": "foundation",
+          "title": "Track 1: Foundation",
+          "description": "What is observability, how Dynatrace works, set up access, and get your first data",
+          "icon": "\ud83c\udfd7\ufe0f",
+          "modules": [
+            {
+              "number": 0,
+              "slug": "00-what-is-observability",
+              "title": "What is Observability",
+              "type": "Tutorial",
+              "route": "/zero-to-hero/foundation/00-what-is-observability/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 1,
+              "slug": "01-dynatrace-platform",
+              "title": "The Dynatrace Platform",
+              "type": "Tutorial",
+              "route": "/zero-to-hero/foundation/01-dynatrace-platform/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 2,
+              "slug": "02-getting-started",
+              "title": "Getting Started",
+              "type": "Tutorial",
+              "route": "/zero-to-hero/foundation/02-getting-started/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 3,
+              "slug": "15-access-control",
+              "title": "Tags & Access Control",
+              "type": "Tutorial",
+              "route": "/zero-to-hero/foundation/15-access-control/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 4,
+              "slug": "03-your-first-data",
+              "title": "Your First Data",
+              "type": "Hands-on",
+              "route": "/zero-to-hero/foundation/03-your-first-data/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        },
+        {
+          "id": "hero-query",
+          "slug": "query",
+          "title": "Track 2: Query & Explore",
+          "description": "Master DQL \u2014 the one language for all your observability data",
+          "icon": "\ud83d\udd0d",
+          "modules": [
+            {
+              "number": 5,
+              "slug": "04-dql-fundamentals",
+              "title": "DQL Fundamentals",
+              "type": "Hands-on",
+              "route": "/zero-to-hero/query/04-dql-fundamentals/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 6,
+              "slug": "05-metrics-timeseries",
+              "title": "Metrics & Timeseries",
+              "type": "Hands-on",
+              "route": "/zero-to-hero/query/05-metrics-timeseries/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 7,
+              "slug": "06-logs-events",
+              "title": "Logs & Events",
+              "type": "Hands-on",
+              "route": "/zero-to-hero/query/06-logs-events/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 8,
+              "slug": "07-entities-topology",
+              "title": "Entities, Topology & Traces",
+              "type": "Tutorial",
+              "route": "/zero-to-hero/query/07-entities-topology/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 9,
+              "slug": "08-notebooks",
+              "title": "Notebooks",
+              "type": "Hands-on",
+              "route": "/zero-to-hero/query/08-notebooks/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        },
+        {
+          "id": "hero-monitor",
+          "slug": "monitor",
+          "title": "Track 3: Monitor & Alert",
+          "description": "Build dashboards, set up alerts, define SLOs, and create synthetic monitors",
+          "icon": "\ud83d\udcca",
+          "modules": [
+            {
+              "number": 10,
+              "slug": "09-dashboards",
+              "title": "Dashboards",
+              "type": "Hands-on",
+              "route": "/zero-to-hero/monitor/09-dashboards/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 11,
+              "slug": "10-alerting",
+              "title": "Alerting",
+              "type": "Tutorial",
+              "route": "/zero-to-hero/monitor/10-alerting/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 12,
+              "slug": "11-slos",
+              "title": "Service Level Objectives",
+              "type": "Tutorial",
+              "route": "/zero-to-hero/monitor/11-slos/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 13,
+              "slug": "12-synthetic-rum",
+              "title": "Synthetic & RUM",
+              "type": "Tutorial",
+              "route": "/zero-to-hero/monitor/12-synthetic-rum/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        },
+        {
+          "id": "hero-automate",
+          "slug": "automate",
+          "title": "Track 4: Automate & Govern",
+          "description": "Workflows, config-as-code, and extensions",
+          "icon": "\u2699\ufe0f",
+          "modules": [
+            {
+              "number": 14,
+              "slug": "13-workflows",
+              "title": "Workflows",
+              "type": "Tutorial",
+              "route": "/zero-to-hero/automate/13-workflows/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 15,
+              "slug": "14-config-as-code",
+              "title": "Configuration as Code",
+              "type": "Tutorial",
+              "route": "/zero-to-hero/automate/14-config-as-code/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 16,
+              "slug": "16-extensions",
+              "title": "Extensions",
+              "type": "Tutorial",
+              "route": "/zero-to-hero/automate/16-extensions/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        },
+        {
+          "id": "hero-master",
+          "slug": "master",
+          "title": "Track 5: Master",
+          "description": "Security, business analytics, custom apps, and enterprise architecture",
+          "icon": "\ud83c\udfc6",
+          "modules": [
+            {
+              "number": 17,
+              "slug": "17-security",
+              "title": "Application Security",
+              "type": "Tutorial",
+              "route": "/zero-to-hero/master/17-security/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 18,
+              "slug": "18-business-analytics",
+              "title": "Business Analytics",
+              "type": "Tutorial",
+              "route": "/zero-to-hero/master/18-business-analytics/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 19,
+              "slug": "19-platform-engineering",
+              "title": "Platform Engineering",
+              "type": "Tutorial",
+              "route": "/zero-to-hero/master/19-platform-engineering/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 20,
+              "slug": "20-architecture-maturity",
+              "title": "Architecture & Maturity",
+              "type": "Tutorial",
+              "route": "/zero-to-hero/master/20-architecture-maturity/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dql-recipes",
+      "slug": "dql-cookbook",
+      "title": "DQL Cookbook",
+      "subtitle": "Copy-Paste Recipes for Real-World Scenarios",
+      "color": "teal",
+      "tracks": [
+        {
+          "id": "dql-recipes",
+          "slug": "",
+          "title": "DQL Recipes",
+          "description": "Ready-to-use DQL queries for the most common monitoring scenarios",
+          "icon": "\ud83e\uddea",
+          "modules": [
+            {
+              "number": 0,
+              "slug": "00-schema-discovery",
+              "title": "Schema Discovery",
+              "type": "Hands-on",
+              "route": "/dql-cookbook/00-schema-discovery/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 1,
+              "slug": "01-host-health",
+              "title": "Host Health Recipes",
+              "type": "Hands-on",
+              "route": "/dql-cookbook/01-host-health/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 2,
+              "slug": "02-service-performance",
+              "title": "Service Performance Recipes",
+              "type": "Hands-on",
+              "route": "/dql-cookbook/02-service-performance/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 3,
+              "slug": "03-log-analysis",
+              "title": "Log Analysis Recipes",
+              "type": "Hands-on",
+              "route": "/dql-cookbook/03-log-analysis/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 4,
+              "slug": "04-cost-billing",
+              "title": "Cost & Billing Recipes",
+              "type": "Hands-on",
+              "route": "/dql-cookbook/04-cost-billing/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 5,
+              "slug": "05-security-queries",
+              "title": "Security Queries",
+              "type": "Hands-on",
+              "route": "/dql-cookbook/05-security-queries/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 6,
+              "slug": "06-trace-analysis",
+              "title": "Trace Analysis",
+              "type": "Hands-on",
+              "route": "/dql-cookbook/06-trace-analysis/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 7,
+              "slug": "07-rum-analytics",
+              "title": "RUM Analytics",
+              "type": "Hands-on",
+              "route": "/dql-cookbook/07-rum-analytics/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 8,
+              "slug": "08-advanced-functions",
+              "title": "Advanced Functions",
+              "type": "Reference",
+              "route": "/dql-cookbook/08-advanced-functions/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 9,
+              "slug": "09-grail-tables",
+              "title": "Grail Tables & Buckets",
+              "type": "Reference",
+              "route": "/dql-cookbook/09-grail-tables/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dql-troubleshoot",
+      "slug": "troubleshooting",
+      "title": "Troubleshooting Playbook",
+      "subtitle": "Step-by-Step Incident Response with Dynatrace",
+      "color": "rose",
+      "tracks": [
+        {
+          "id": "dql-troubleshoot",
+          "slug": "",
+          "title": "Playbooks",
+          "description": "Structured troubleshooting workflows for common production incidents",
+          "icon": "\ud83d\udd0d",
+          "modules": [
+            {
+              "number": 0,
+              "slug": "00-slow-application",
+              "title": "Slow Application",
+              "type": "Hands-on",
+              "route": "/troubleshooting/00-slow-application/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 1,
+              "slug": "01-high-error-rate",
+              "title": "High Error Rate",
+              "type": "Hands-on",
+              "route": "/troubleshooting/01-high-error-rate/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 2,
+              "slug": "02-infrastructure-alert",
+              "title": "Infrastructure Alert",
+              "type": "Hands-on",
+              "route": "/troubleshooting/02-infrastructure-alert/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 3,
+              "slug": "03-deployment-gone-wrong",
+              "title": "Deployment Gone Wrong",
+              "type": "Hands-on",
+              "route": "/troubleshooting/03-deployment-gone-wrong/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 4,
+              "slug": "04-missing-data",
+              "title": "Missing Data",
+              "type": "Hands-on",
+              "route": "/troubleshooting/04-missing-data/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 5,
+              "slug": "05-security-incident",
+              "title": "Security Incident",
+              "type": "Hands-on",
+              "route": "/troubleshooting/05-security-incident/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 6,
+              "slug": "06-kubernetes-issues",
+              "title": "Kubernetes Issues",
+              "type": "Hands-on",
+              "route": "/troubleshooting/06-kubernetes-issues/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 7,
+              "slug": "07-davis-ai-tools",
+              "title": "Davis AI & Diagnostics",
+              "type": "Reference",
+              "route": "/troubleshooting/07-davis-ai-tools/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dql-dashboards",
+      "slug": "dashboards",
+      "title": "Dashboard Gallery",
+      "subtitle": "Production-Ready Dashboard Patterns with DQL",
+      "color": "orange",
+      "tracks": [
+        {
+          "id": "dql-dashboards",
+          "slug": "",
+          "title": "Dashboard Patterns",
+          "description": "Real production dashboards you can build in minutes",
+          "icon": "\ud83d\udcca",
+          "modules": [
+            {
+              "number": 0,
+              "slug": "00-executive-overview",
+              "title": "Executive Overview",
+              "type": "Hands-on",
+              "route": "/dashboards/00-executive-overview/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 1,
+              "slug": "01-service-board",
+              "title": "Service Performance Board",
+              "type": "Hands-on",
+              "route": "/dashboards/01-service-board/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 2,
+              "slug": "02-log-analytics-board",
+              "title": "Log Analytics Board",
+              "type": "Hands-on",
+              "route": "/dashboards/02-log-analytics-board/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 3,
+              "slug": "03-full-stack-correlation",
+              "title": "Full-Stack Correlation",
+              "type": "Hands-on",
+              "route": "/dashboards/03-full-stack-correlation/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 4,
+              "slug": "04-security-posture",
+              "title": "Security Posture",
+              "type": "Hands-on",
+              "route": "/dashboards/04-security-posture/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 5,
+              "slug": "05-kubernetes-cluster",
+              "title": "Kubernetes Cluster",
+              "type": "Hands-on",
+              "route": "/dashboards/05-kubernetes-cluster/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 6,
+              "slug": "06-tile-reference",
+              "title": "Tile Reference Guide",
+              "type": "Reference",
+              "route": "/dashboards/06-tile-reference/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dql-sre",
+      "slug": "sre-finops",
+      "title": "SRE & FinOps",
+      "subtitle": "SLOs, Cost Optimization & Capacity Planning",
+      "color": "lime",
+      "tracks": [
+        {
+          "id": "dql-sre",
+          "slug": "",
+          "title": "SRE & FinOps",
+          "description": "Reliability engineering and cost optimization with Dynatrace",
+          "icon": "\ud83d\udcb0",
+          "modules": [
+            {
+              "number": 0,
+              "slug": "00-daily-health-report",
+              "title": "Daily Health Report",
+              "type": "Hands-on",
+              "route": "/sre-finops/00-daily-health-report/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 1,
+              "slug": "01-incident-response",
+              "title": "Incident Response Workflow",
+              "type": "Hands-on",
+              "route": "/sre-finops/01-incident-response/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 2,
+              "slug": "02-capacity-planning",
+              "title": "Capacity Planning",
+              "type": "Hands-on",
+              "route": "/sre-finops/02-capacity-planning/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 3,
+              "slug": "03-cost-optimization",
+              "title": "Cost Optimization",
+              "type": "Tutorial",
+              "route": "/sre-finops/03-cost-optimization/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 4,
+              "slug": "04-slo-management",
+              "title": "SLO Management",
+              "type": "Hands-on",
+              "route": "/sre-finops/04-slo-management/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 5,
+              "slug": "05-platform-adoption",
+              "title": "Platform Adoption & Maturity",
+              "type": "Reference",
+              "route": "/sre-finops/05-platform-adoption/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gen3",
+      "slug": "migration",
+      "title": "Gen2 \u2192 Gen3 Migration Guide",
+      "subtitle": "A Hands-On Guide to Migrating to Latest Dynatrace",
+      "color": "amber",
+      "tracks": [
+        {
+          "id": "gen3-overview",
+          "slug": "phase-0-overview",
+          "title": "Phase 0: Understand the Shift",
+          "description": "Why migrate, what changed architecturally, and the one language you need to learn",
+          "icon": "\ud83c\udfaf",
+          "modules": [
+            {
+              "number": 0,
+              "slug": "00-whats-new",
+              "title": "Why Migrate \u2014 Business Case & Vision",
+              "type": "Tutorial",
+              "route": "/migration/phase-0-overview/00-whats-new/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 1,
+              "slug": "01-navigation-ui",
+              "title": "The New UI & Settings",
+              "type": "Tutorial",
+              "route": "/migration/phase-0-overview/01-navigation-ui/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 2,
+              "slug": "02-grail-architecture",
+              "title": "Grail Architecture Deep Dive",
+              "type": "Tutorial",
+              "route": "/migration/phase-0-overview/02-grail-architecture/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 3,
+              "slug": "03-smartscape-entities",
+              "title": "Smartscape & Entity Model",
+              "type": "Tutorial",
+              "route": "/migration/phase-0-overview/03-smartscape-entities/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        },
+        {
+          "id": "gen3-iam",
+          "slug": "phase-1-access-architecture",
+          "title": "Phase 1: Set Up Access & Data Architecture",
+          "description": "The complete access architecture: MZ \u2192 Segments + ABAC + Buckets, security context enrichment for all data types, V3.1 IAM model with dual boundaries",
+          "icon": "\ud83d\udd10",
+          "modules": [
+            {
+              "number": 4,
+              "slug": "16-management-zones-segments",
+              "title": "Management Zones \u2192 Three New Concepts",
+              "type": "Tutorial",
+              "route": "/migration/phase-1-access-architecture/16-management-zones-segments/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 5,
+              "slug": "16b-tags-primary-grail",
+              "title": "Tags in Gen3: Primary Fields, Primary Tags & Security Context",
+              "type": "Tutorial",
+              "route": "/migration/phase-1-access-architecture/16b-tags-primary-grail/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 6,
+              "slug": "17-iam-abac",
+              "title": "IAM & ABAC: The Complete Access Architecture",
+              "type": "Hands-on",
+              "route": "/migration/phase-1-access-architecture/17-iam-abac/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 7,
+              "slug": "17b-security-context-enrichment",
+              "title": "Security Context Enrichment: Tagging All Data",
+              "type": "Hands-on",
+              "route": "/migration/phase-1-access-architecture/17b-security-context-enrichment/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 8,
+              "slug": "17c-grail-buckets",
+              "title": "Grail Buckets & Data Partitioning",
+              "type": "Hands-on",
+              "route": "/migration/phase-1-access-architecture/17c-grail-buckets/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 9,
+              "slug": "17d-architecture-complete",
+              "title": "Putting It All Together: Complete Architecture",
+              "type": "Reference",
+              "route": "/migration/phase-1-access-architecture/17d-architecture-complete/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        },
+        {
+          "id": "gen3-dql",
+          "slug": "phase-2-dql",
+          "title": "Phase 2: Learn DQL",
+          "description": "The single query language that replaces USQL, metric expressions, entity selectors, and log viewer",
+          "icon": "\ud83d\udd0d",
+          "modules": [
+            {
+              "number": 10,
+              "slug": "04-dql-fundamentals",
+              "title": "DQL Crash Course",
+              "type": "Hands-on",
+              "route": "/migration/phase-2-dql/04-dql-fundamentals/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 11,
+              "slug": "05-metrics-timeseries",
+              "title": "Migrate Metric Expressions \u2192 timeseries",
+              "type": "Hands-on",
+              "route": "/migration/phase-2-dql/05-metrics-timeseries/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 12,
+              "slug": "06-entity-queries",
+              "title": "Migrate Entity Selectors \u2192 Smartscape",
+              "type": "Hands-on",
+              "route": "/migration/phase-2-dql/06-entity-queries/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 13,
+              "slug": "07-usql-to-dql",
+              "title": "Migrate USQL \u2192 DQL for RUM",
+              "type": "Hands-on",
+              "route": "/migration/phase-2-dql/07-usql-to-dql/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 14,
+              "slug": "08-log-queries",
+              "title": "Migrate Log Viewer \u2192 DQL + OpenPipeline",
+              "type": "Hands-on",
+              "route": "/migration/phase-2-dql/08-log-queries/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        },
+        {
+          "id": "gen3-dashboards",
+          "slug": "phase-3-dashboards",
+          "title": "Phase 3: Migrate Dashboards",
+          "description": "Convert classic dashboards to DQL-powered dashboards and adopt Notebooks",
+          "icon": "\ud83d\udcca",
+          "modules": [
+            {
+              "number": 15,
+              "slug": "09-dashboard-migration",
+              "title": "Migrate Classic \u2192 Gen3 Dashboards",
+              "type": "Hands-on",
+              "route": "/migration/phase-3-dashboards/09-dashboard-migration/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 16,
+              "slug": "10-notebooks",
+              "title": "Adopt Notebooks for Investigation",
+              "type": "Hands-on",
+              "route": "/migration/phase-3-dashboards/10-notebooks/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 17,
+              "slug": "11-variables-filters",
+              "title": "Migrate MZ Filters \u2192 Variables & Segments",
+              "type": "Hands-on",
+              "route": "/migration/phase-3-dashboards/11-variables-filters/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        },
+        {
+          "id": "gen3-alerting",
+          "slug": "phase-4-alerting",
+          "title": "Phase 4: Migrate Alerting & SLOs",
+          "description": "Replace metric events with anomaly detectors, alerting profiles with Workflows, and classic SLOs with platform SLOs",
+          "icon": "\ud83d\udd14",
+          "modules": [
+            {
+              "number": 18,
+              "slug": "12-anomaly-detectors",
+              "title": "Migrate Metric Events \u2192 Anomaly Detectors",
+              "type": "Hands-on",
+              "route": "/migration/phase-4-alerting/12-anomaly-detectors/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 19,
+              "slug": "13-workflows-notifications",
+              "title": "Migrate Alerting Profiles \u2192 Workflows",
+              "type": "Hands-on",
+              "route": "/migration/phase-4-alerting/13-workflows-notifications/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 20,
+              "slug": "14-slo-migration",
+              "title": "Migrate Classic \u2192 Platform SLOs",
+              "type": "Hands-on",
+              "route": "/migration/phase-4-alerting/14-slo-migration/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 21,
+              "slug": "15-auto-remediation",
+              "title": "Build Auto-Remediation Workflows",
+              "type": "Hands-on",
+              "route": "/migration/phase-4-alerting/15-auto-remediation/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        },
+        {
+          "id": "gen3-golive",
+          "slug": "phase-5-golive",
+          "title": "Phase 5: Config-as-Code & Go Live",
+          "description": "Migrate Settings API, automate with Terraform & Monaco, and execute the go-live checklist",
+          "icon": "\ud83d\ude80",
+          "modules": [
+            {
+              "number": 22,
+              "slug": "18-settings-api",
+              "title": "Migrate Settings v1 \u2192 Settings 2.0",
+              "type": "Tutorial",
+              "route": "/migration/phase-5-golive/18-settings-api/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 23,
+              "slug": "19-terraform-monaco",
+              "title": "Automate with Terraform & Monaco",
+              "type": "Hands-on",
+              "route": "/migration/phase-5-golive/19-terraform-monaco/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 24,
+              "slug": "20-migration-checklist",
+              "title": "Go-Live Checklist & Optimization",
+              "type": "Reference",
+              "route": "/migration/phase-5-golive/20-migration-checklist/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "extensions",
+      "slug": "extensions",
+      "title": "Dynatrace Extensions",
+      "subtitle": "Build Extensions 2.0 From Scratch",
+      "color": "emerald",
+      "tracks": [
+        {
+          "id": "snmp",
+          "slug": "snmp",
+          "title": "SNMP Extensions",
+          "description": "Build a complete SNMP monitoring extension from an empty file to production",
+          "icon": "\ud83d\udce1",
+          "modules": [
+            {
+              "number": 0,
+              "slug": "00-getting-started",
+              "title": "Getting Started",
+              "type": "Tutorial",
+              "route": "/extensions/snmp/00-getting-started/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 1,
+              "slug": "01-snmp-fundamentals",
+              "title": "SNMP Fundamentals",
+              "type": "Tutorial",
+              "route": "/extensions/snmp/01-snmp-fundamentals/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 2,
+              "slug": "02-metrics-dimensions",
+              "title": "Metrics & Dimensions",
+              "type": "Hands-on",
+              "route": "/extensions/snmp/02-metrics-dimensions/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 3,
+              "slug": "03-groups-featuresets",
+              "title": "Groups & Feature Sets",
+              "type": "Hands-on",
+              "route": "/extensions/snmp/03-groups-featuresets/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 4,
+              "slug": "04-advanced-snmp",
+              "title": "Advanced SNMP",
+              "type": "Hands-on",
+              "route": "/extensions/snmp/04-advanced-snmp/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 5,
+              "slug": "05-topology",
+              "title": "Topology: Entities & Relationships",
+              "type": "Hands-on",
+              "route": "/extensions/snmp/05-topology/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 6,
+              "slug": "06-screens-dashboards",
+              "title": "Screens & Dashboards",
+              "type": "Hands-on",
+              "route": "/extensions/snmp/06-screens-dashboards/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 7,
+              "slug": "07-calculated-metrics",
+              "title": "Calculated Metrics (func:)",
+              "type": "Hands-on",
+              "route": "/extensions/snmp/07-calculated-metrics/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 8,
+              "slug": "08-build-deploy",
+              "title": "Build, Sign & Deploy",
+              "type": "Tutorial",
+              "route": "/extensions/snmp/08-build-deploy/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        },
+        {
+          "id": "python",
+          "slug": "python",
+          "title": "Python Extensions",
+          "description": "Build custom Python extensions for data sources SNMP can't reach",
+          "icon": "\ud83d\udc0d",
+          "modules": [
+            {
+              "number": 9,
+              "slug": "09-python-basics",
+              "title": "Python Extension Basics",
+              "type": "Hands-on",
+              "route": "/extensions/python/09-python-basics/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 10,
+              "slug": "10-api-integration",
+              "title": "API Integration",
+              "type": "Hands-on",
+              "route": "/extensions/python/10-api-integration/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 11,
+              "slug": "11-python-topology",
+              "title": "Python Topology & Screens",
+              "type": "Hands-on",
+              "route": "/extensions/python/11-python-topology/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 12,
+              "slug": "12-testing-debugging",
+              "title": "Testing & Debugging",
+              "type": "Tutorial",
+              "route": "/extensions/python/12-testing-debugging/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        },
+        {
+          "id": "production",
+          "slug": "production",
+          "title": "Production Skills",
+          "description": "Ship extensions that don't break in production",
+          "icon": "\ud83d\ude80",
+          "modules": [
+            {
+              "number": 13,
+              "slug": "13-alert-creation",
+              "title": "Alert Creation",
+              "type": "Hands-on",
+              "route": "/extensions/production/13-alert-creation/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 14,
+              "slug": "14-validation-qa",
+              "title": "Validation & QA",
+              "type": "Hands-on",
+              "route": "/extensions/production/14-validation-qa/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 15,
+              "slug": "15-case-studies",
+              "title": "Real-World Case Studies",
+              "type": "Reference",
+              "route": "/extensions/production/15-case-studies/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "apps",
+      "slug": "apps",
+      "title": "Dynatrace Apps",
+      "subtitle": "DOOM to Dashboard",
+      "color": "violet",
+      "tracks": [
+        {
+          "id": "apps-foundations",
+          "slug": "foundations",
+          "title": "Foundations",
+          "description": "Get DOOM running inside Dynatrace and understand the platform",
+          "icon": "\ud83c\udfae",
+          "modules": [
+            {
+              "number": 0,
+              "slug": "00-welcome-to-the-arena",
+              "title": "Welcome to the Arena",
+              "type": "Tutorial",
+              "route": "/apps/foundations/00-welcome-to-the-arena/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 1,
+              "slug": "01-setting-up-your-bfg",
+              "title": "Setting Up Your BFG",
+              "type": "Tutorial",
+              "route": "/apps/foundations/01-setting-up-your-bfg/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 2,
+              "slug": "02-first-blood",
+              "title": "First Blood (First App)",
+              "type": "Hands-on",
+              "route": "/apps/foundations/02-first-blood/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 3,
+              "slug": "03-loading-doom",
+              "title": "Loading DOOM",
+              "type": "Hands-on",
+              "route": "/apps/foundations/03-loading-doom/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        },
+        {
+          "id": "apps-data-ui",
+          "slug": "data-ui",
+          "title": "Data & UI",
+          "description": "Query Grail with DQL and build UIs with Strato Design System",
+          "icon": "\ud83d\udcca",
+          "modules": [
+            {
+              "number": 4,
+              "slug": "04-querying-the-grail",
+              "title": "Querying the Grail",
+              "type": "Hands-on",
+              "route": "/apps/data-ui/04-querying-the-grail/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 5,
+              "slug": "05-strato-arsenal",
+              "title": "Strato Arsenal",
+              "type": "Hands-on",
+              "route": "/apps/data-ui/05-strato-arsenal/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 6,
+              "slug": "06-charting-your-kills",
+              "title": "Charting Your Kills",
+              "type": "Hands-on",
+              "route": "/apps/data-ui/06-charting-your-kills/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 7,
+              "slug": "07-the-hud",
+              "title": "The HUD (Heads-Up Display)",
+              "type": "Hands-on",
+              "route": "/apps/data-ui/07-the-hud/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        },
+        {
+          "id": "apps-advanced",
+          "slug": "advanced",
+          "title": "Advanced",
+          "description": "App functions, intents, workflows, and deployment",
+          "icon": "\u26a1",
+          "modules": [
+            {
+              "number": 8,
+              "slug": "08-power-ups",
+              "title": "Power-Ups (App Functions)",
+              "type": "Hands-on",
+              "route": "/apps/advanced/08-power-ups/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 9,
+              "slug": "09-warp-zones",
+              "title": "Warp Zones (Intents)",
+              "type": "Hands-on",
+              "route": "/apps/advanced/09-warp-zones/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 10,
+              "slug": "10-multiplayer",
+              "title": "Multiplayer (Workflows)",
+              "type": "Tutorial",
+              "route": "/apps/advanced/10-multiplayer/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 11,
+              "slug": "11-deploying-to-production",
+              "title": "Deploying to Production",
+              "type": "Tutorial",
+              "route": "/apps/advanced/11-deploying-to-production/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        },
+        {
+          "id": "apps-boss",
+          "slug": "boss-level",
+          "title": "Boss Level",
+          "description": "Build a real app from scratch and learn from case studies",
+          "icon": "\ud83d\udc7e",
+          "modules": [
+            {
+              "number": 12,
+              "slug": "12-boss-fight",
+              "title": "Boss Fight: Build a Real App",
+              "type": "Hands-on",
+              "route": "/apps/boss-level/12-boss-fight/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 13,
+              "slug": "13-secret-levels",
+              "title": "Secret Levels",
+              "type": "Tutorial",
+              "route": "/apps/boss-level/13-secret-levels/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            },
+            {
+              "number": 14,
+              "slug": "14-case-studies",
+              "title": "Case Studies & War Stories",
+              "type": "Reference",
+              "route": "/apps/boss-level/14-case-studies/",
+              "recoveryStatus": "recovered-original",
+              "contentSource": "original platform (recovered via server-rendered content payload)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
